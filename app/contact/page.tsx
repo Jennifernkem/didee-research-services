@@ -2,24 +2,24 @@ export default function Contact() {
   return (
     <div style={{display: 'flex', flexDirection: 'column', gap: '60px'}}>
       {/* Header */}
-      <section style={{textAlign: 'center', padding: '40px 20px', background: 'linear-gradient(135deg, #78350f 0%, #92400e 100%)', borderRadius: '20px', color: 'white'}}>
-        <h1 style={{fontSize: '48px', fontWeight: 'bold', marginBottom: '24px'}}>Get Your Custom Research Quote</h1>
-        <p style={{fontSize: '20px', opacity: '0.9', maxWidth: '800px', margin: '0 auto'}}>
+      <section style={{textAlign: 'center', padding: 'clamp(24px, 5vw, 40px) clamp(16px, 4vw, 20px)', background: 'linear-gradient(135deg, #78350f 0%, #92400e 100%)', borderRadius: 'clamp(12px, 3vw, 20px)', color: 'white'}}>
+        <h1 style={{fontSize: 'clamp(28px, 7vw, 48px)', fontWeight: 'bold', marginBottom: 'clamp(16px, 3vw, 24px)'}}>Get Your Custom Research Quote</h1>
+        <p style={{fontSize: 'clamp(16px, 3vw, 20px)', opacity: '0.9', maxWidth: '800px', margin: '0 auto'}}>
           Tell us about your research needs and get a detailed proposal with timeline and pricing. Free consultation included.
         </p>
       </section>
 
-      <div style={{display: 'grid', gridTemplateColumns: '2fr 1fr', gap: '60px'}}>
+      <div style={{display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(min(100%, 400px), 1fr))', gap: 'clamp(30px, 5vw, 60px)'}}>
         {/* Quote Request Form */}
         <div>
-          <h2 style={{fontSize: '32px', fontWeight: 'bold', marginBottom: '24px', color: 'white'}}>Request Your Quote</h2>
-          <p style={{fontSize: '16px', color: 'white', marginBottom: '32px', fontWeight: 'bold'}}>
+          <h2 style={{fontSize: 'clamp(24px, 5vw, 32px)', fontWeight: 'bold', marginBottom: 'clamp(16px, 3vw, 24px)', color: 'white'}}>Request Your Quote</h2>
+          <p style={{fontSize: 'clamp(14px, 2.5vw, 16px)', color: 'white', marginBottom: 'clamp(20px, 4vw, 32px)', fontWeight: 'bold'}}>
             Fill out this form with as much detail as possible. The more information you provide, the more accurate our quote will be.
           </p>
 
-          <form action="https://formspree.io/f/mojnagvg" method="POST" style={{display: 'flex', flexDirection: 'column', gap: '24px'}}>
+          <form action="https://formspree.io/f/mojnagvg" method="POST" style={{display: 'flex', flexDirection: 'column', gap: 'clamp(16px, 3vw, 24px)'}}>
             {/* Personal Information */}
-            <div style={{display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '20px'}}>
+            <div style={{display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(min(100%, 200px), 1fr))', gap: 'clamp(16px, 3vw, 20px)'}}>
               <div>
                 <label style={{display: 'block', marginBottom: '8px', fontWeight: 'bold', color: 'white'}}>Full Name *</label>
                 <input 
@@ -42,7 +42,7 @@ export default function Contact() {
               </div>
             </div>
 
-            <div style={{display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '20px'}}>
+            <div style={{display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(min(100%, 200px), 1fr))', gap: 'clamp(16px, 3vw, 20px)'}}>
               <div>
                 <label style={{display: 'block', marginBottom: '8px', fontWeight: 'bold', color: 'white'}}>Phone Number</label>
                 <input 
@@ -83,7 +83,7 @@ export default function Contact() {
               </select>
             </div>
 
-            <div style={{display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '20px'}}>
+            <div style={{display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(min(100%, 200px), 1fr))', gap: 'clamp(16px, 3vw, 20px)'}}>
               <div>
                 <label style={{display: 'block', marginBottom: '8px', fontWeight: 'bold', color: 'white'}}>Research Domain</label>
                 <select style={{width: '100%', padding: '12px 16px', border: '2px solid #e5e7eb', borderRadius: '8px', fontSize: '16px'}} name="Research_Domain">
@@ -115,7 +115,7 @@ export default function Contact() {
               </div>
             </div>
 
-            <div style={{display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '20px'}}>
+            <div style={{display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(min(100%, 200px), 1fr))', gap: 'clamp(16px, 3vw, 20px)'}}>
               <div>
                 <label style={{display: 'block', marginBottom: '8px', fontWeight: 'bold', color: 'white'}}>Estimated Pages/Length</label>
                 <select style={{width: '100%', padding: '12px 16px', border: '2px solid #e5e7eb', borderRadius: '8px', fontSize: '16px'}} name="Pages_Length">

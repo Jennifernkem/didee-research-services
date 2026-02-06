@@ -4,16 +4,16 @@ export default function Portfolio() {
   return (
     <div style={{display: 'flex', flexDirection: 'column', gap: '60px'}}>
       {/* Header */}
-      <section style={{textAlign: 'center', padding: '40px 20px', background: 'linear-gradient(135deg, #78350f 0%, #92400e 100%)', borderRadius: '20px', color: 'white'}}>
-        <h1 style={{fontSize: '48px', fontWeight: 'bold', marginBottom: '24px'}}>Our Research Portfolio</h1>
-        <p style={{fontSize: '20px', opacity: '0.9', maxWidth: '800px', margin: '0 auto'}}>
+      <section style={{textAlign: 'center', padding: 'clamp(24px, 5vw, 40px) clamp(16px, 4vw, 20px)', background: 'linear-gradient(135deg, #78350f 0%, #92400e 100%)', borderRadius: 'clamp(12px, 3vw, 20px)', color: 'white'}}>
+        <h1 style={{fontSize: 'clamp(28px, 7vw, 48px)', fontWeight: 'bold', marginBottom: 'clamp(16px, 3vw, 24px)'}}>Our Research Portfolio</h1>
+        <p style={{fontSize: 'clamp(16px, 3vw, 20px)', opacity: '0.9', maxWidth: '800px', margin: '0 auto'}}>
           Explore our published research works and successful projects across multiple domains. Quality research that makes an impact.
         </p>
       </section>
 
       {/* Didee Publications Showcase */}
       <section>
-        <div style={{display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '60px', alignItems: 'center'}}>
+        <div style={{display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(min(100%, 350px), 1fr))', gap: 'clamp(30px, 5vw, 60px)', alignItems: 'center'}}>
           <div>
             <h2 style={{fontSize: '36px', fontWeight: 'bold', marginBottom: '24px', color: 'white'}}>Didee Publications</h2>
             <p style={{fontSize: '18px', color: 'white', marginBottom: '30px', lineHeight: '1.7', fontWeight: 'bold'}}>
@@ -46,9 +46,9 @@ export default function Portfolio() {
       </section>
 
       {/* Recent Publications */}
-      <section style={{backgroundColor: '#f8fafc', padding: '60px 40px', borderRadius: '20px'}}>
-        <h2 style={{fontSize: '36px', fontWeight: 'bold', textAlign: 'center', marginBottom: '50px', color: '#1f2937'}}>Recent Published Research</h2>
-        <div style={{display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(350px, 1fr))', gap: '30px'}}>
+      <section style={{backgroundColor: '#f8fafc', padding: 'clamp(30px, 5vw, 60px) clamp(20px, 4vw, 40px)', borderRadius: 'clamp(12px, 3vw, 20px)'}}>
+        <h2 style={{fontSize: 'clamp(24px, 5vw, 36px)', fontWeight: 'bold', textAlign: 'center', marginBottom: 'clamp(30px, 5vw, 50px)', color: '#1f2937'}}>Recent Published Research</h2>
+        <div style={{display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(min(100%, 300px), 1fr))', gap: 'clamp(20px, 3vw, 30px)'}}>
           
           <div className="card" style={{borderLeft: '4px solid #059669'}}>
             <div style={{marginBottom: '16px'}}>
@@ -150,8 +150,8 @@ export default function Portfolio() {
 
       {/* Research Domains */}
       <section>
-        <h2 style={{fontSize: '36px', fontWeight: 'bold', textAlign: 'center', marginBottom: '50px', color: 'white'}}>Our Research Expertise</h2>
-        <div style={{display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))', gap: '30px'}}>
+        <h2 style={{fontSize: 'clamp(24px, 5vw, 36px)', fontWeight: 'bold', textAlign: 'center', marginBottom: 'clamp(30px, 5vw, 50px)', color: 'white'}}>Our Research Expertise</h2>
+        <div style={{display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(min(100%, 250px), 1fr))', gap: 'clamp(20px, 3vw, 30px)'}}>
           
           <div className="card" style={{textAlign: 'center', borderTop: '4px solid #1e40af'}}>
             <h3 style={{fontSize: '20px', fontWeight: '700', marginBottom: '16px', color: '#1e40af'}}>Psychology & Mental Health</h3>

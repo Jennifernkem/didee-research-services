@@ -57,7 +57,6 @@ export default function Services() {
             <div style={{marginBottom: '30px'}}>
               <h3 style={{fontSize: '20px', fontWeight: '700', marginBottom: '16px', color: '#1f2937'}}>What We Offer:</h3>
               <ul style={{color: '#6b7280', lineHeight: '1.8'}}>
-                <li>• <strong>Thesis & Dissertation Writing:</strong> Complete chapters or full dissertations</li>
                 <li>• <strong>Research Proposals:</strong> Compelling proposals that get approved</li>
                 <li>• <strong>Literature Reviews:</strong> Comprehensive and systematic reviews</li>
                 <li>• <strong>Data Analysis Support:</strong> Statistical analysis and interpretation</li>

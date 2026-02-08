@@ -10,7 +10,8 @@ export default function Team() {
     { name: "Dr. Fehintola Ige", title: "Dr.", specialty: "Geneticist" },
     { name: "Dr. Okhihan Ivie Blessing", title: "Dr.", specialty: "Researcher" },
     { name: "Dr. Ilenloh Collins Osemenkhian", title: "Dr.", specialty: "Researcher" },
-    { name: "Dr. Akhaine Jesu-Oboh Precious", title: "Dr.", specialty: "Data Analysis (SPSS), Systematic Reviews, Epidemiological Study Designs" }
+    { name: "Dr. Akhaine Jesu-Oboh Precious", title: "Dr.", specialty: "Data Analysis (SPSS), Systematic Reviews, Epidemiological Study Designs" },
+    { name: "Dr. Isioma Sylvia Anukwu", title: "Dr.", specialty: "Machine Learning, Artificial Intelligence, Biomedical Engineering, Information Technology" }
   ];
 
   const researchFellows = [
@@ -28,7 +29,10 @@ export default function Team() {
     { name: "Busolala Modupe", specialty: "Spanish" },
     { name: "Mr. Michael Adikpe Omenor", specialty: "Computer Science & Cryptocurrency" },
     { name: "Mr. Peter Onubi", specialty: "Microbiology" },
-    { name: "Mr. Chima Anthony Ukachukwu", specialty: "Cybersecurity" }
+    { name: "Mr. Chima Anthony Ukachukwu", specialty: "Cybersecurity" },
+    { name: "Abel Friday Ugwu", specialty: "Educational Psychology" },
+    { name: "Idu Michael Onoja", specialty: "Mechanical Engineering, Physics, Mathematics" },
+    { name: "Saanmoiyol Marvin Manasseh", specialty: "Mathematics" }
   ];
 
   return (
@@ -76,11 +80,11 @@ export default function Team() {
         <h2 style={{fontSize: '36px', fontWeight: 'bold', textAlign: 'center', marginBottom: '50px'}}>Our Team Strength</h2>
         <div style={{display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))', gap: '40px', textAlign: 'center'}}>
           <div>
-            <div style={{fontSize: '48px', fontWeight: 'bold', marginBottom: '12px'}}>27+</div>
+            <div style={{fontSize: '48px', fontWeight: 'bold', marginBottom: '12px'}}>30+</div>
             <p style={{fontSize: '18px', opacity: '0.9'}}>Expert Researchers</p>
           </div>
           <div>
-            <div style={{fontSize: '48px', fontWeight: 'bold', marginBottom: '12px'}}>11</div>
+            <div style={{fontSize: '48px', fontWeight: 'bold', marginBottom: '12px'}}>12</div>
             <p style={{fontSize: '18px', opacity: '0.9'}}>PhD Holders</p>
           </div>
           <div>

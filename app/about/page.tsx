@@ -36,10 +36,10 @@ export default function About() {
                 DO
               </div>
               <div style={{flex: 1}}>
-                <h3 style={{fontSize: '24px', fontWeight: 'bold', marginBottom: '8px', color: '#1f2937'}}>Dr. Daniel Ojotule Offor</h3>
+                <h3 style={{fontSize: '24px', fontWeight: 'bold', marginBottom: '8px', color: '#1f2937'}}>Daniel Ojotule Offor</h3>
                 <p style={{fontSize: '16px', color: '#78350f', fontWeight: '600', marginBottom: '16px'}}>Founder & Chief Executive Officer</p>
                 <p style={{color: '#1f2937', lineHeight: '1.8'}}>
-                  Dr. Daniel Offor is a distinguished clinical psychologist and researcher with extensive expertise in psychological assessments, evidence-based interventions, and holistic care. His leadership ensures that Didee Research Services maintains the highest standards of academic excellence while providing personalized, client-focused solutions.
+                  Daniel Offor is a distinguished clinical psychologist and researcher with extensive expertise in psychological assessments, evidence-based interventions, and holistic care. His leadership ensures that Didee Research Services maintains the highest standards of academic excellence while providing personalized, client-focused solutions.
                 </p>
               </div>
             </div>

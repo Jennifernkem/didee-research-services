@@ -48,9 +48,9 @@ export default function Services() {
         <div style={{display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '60px', alignItems: 'center'}}>
           <div style={{height: '400px', backgroundColor: '#f3f4f6', borderRadius: '16px', backgroundImage: 'url(/images/academic%20writing.jpg)', backgroundSize: 'cover', backgroundPosition: 'center'}}></div>
           <div>
-            <h2 style={{fontSize: '36px', fontWeight: 'bold', marginBottom: '24px', color: '#78350f'}}>Academic Writing & Thesis Support</h2>
+            <h2 style={{fontSize: '36px', fontWeight: 'bold', marginBottom: '24px', color: '#78350f'}}>Academic Writing & Research Support</h2>
             <p style={{fontSize: '18px', color: '#6b7280', marginBottom: '30px', lineHeight: '1.7'}}>
-              Supporting students and researchers at every stage of their academic journey. From proposal development to final dissertation, 
+              Supporting students and researchers at every stage of their academic journey. From proposal development to publication-ready manuscripts, 
               we ensure academic excellence and adherence to institutional standards.
             </p>
             

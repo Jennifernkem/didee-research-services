@@ -130,8 +130,8 @@ export default function Portfolio() {
                 "Exceptional research quality and professional service. The team delivered comprehensive market analysis that helped us make critical business decisions."
               </p>
               <div>
-                <p style={{fontWeight: '600'}}>Sarah Johnson</p>
-                <p style={{fontSize: '14px', opacity: '0.7'}}>CEO, TechStart Solutions</p>
+                <p style={{fontWeight: '600'}}>Ibeh Winstein</p>
+                <p style={{fontSize: '14px', opacity: '0.7'}}>CEO, Decal Communications</p>
               </div>
             </div>
           </div>
@@ -149,8 +149,8 @@ export default function Portfolio() {
                 "Outstanding thesis support! The research team helped me complete my PhD dissertation with high-quality analysis and writing."
               </p>
               <div>
-                <p style={{fontWeight: '600'}}>Dr. Michael Chen</p>
-                <p style={{fontSize: '14px', opacity: '0.7'}}>PhD Graduate, University of Oxford</p>
+                <p style={{fontWeight: '600'}}>Michael Ameh</p>
+                <p style={{fontSize: '14px', opacity: '0.7'}}>CEO, Synergy Company</p>
               </div>
             </div>
           </div>
@@ -168,8 +168,8 @@ export default function Portfolio() {
                 "Professional, timely, and thorough. Their policy research provided valuable insights for our government initiative."
               </p>
               <div>
-                <p style={{fontWeight: '600'}}>Emma Rodriguez</p>
-                <p style={{fontSize: '14px', opacity: '0.7'}}>Policy Director, Health Ministry</p>
+                <p style={{fontWeight: '600'}}>Paul Madu</p>
+                <p style={{fontSize: '14px', opacity: '0.7'}}>MD, Swift Services</p>
               </div>
             </div>
           </div>

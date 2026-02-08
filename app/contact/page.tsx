@@ -217,7 +217,6 @@ export default function Contact() {
                 </div>
                 <div>
                   <p style={{fontWeight: '600', color: '#1f2937'}}>WhatsApp</p>
-                  <p style={{color: '#6b7280', fontSize: '14px'}}>+44 7350 165627</p>
                   <p style={{color: '#6b7280', fontSize: '14px'}}>+44 7831 077726</p>
                   <p style={{color: '#6b7280', fontSize: '14px'}}>+44 7349 054077</p>
                 </div>

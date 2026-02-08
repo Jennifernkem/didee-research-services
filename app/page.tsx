@@ -55,10 +55,10 @@ export default function Home() {
             </div>
             <h3 style={{fontSize: '24px', fontWeight: '700', marginBottom: '16px', color: '#78350f'}}>Academic Writing Support</h3>
             <p style={{color: '#6b7280', lineHeight: '1.6', marginBottom: '20px'}}>
-              Professional writing services for students and researchers. From thesis chapters to complete dissertations, we ensure academic excellence.
+              Professional writing services for students and researchers. From research proposals to complete academic projects, we ensure academic excellence.
             </p>
             <ul style={{textAlign: 'left', color: '#6b7280', marginBottom: '24px'}}>
-              <li>• Thesis & Dissertation Writing</li>
+              <li>• Academic Research Writing</li>
               <li>• Research Proposals</li>
               <li>• Journal Article Preparation</li>
               <li>• Grant Writing Support</li>
